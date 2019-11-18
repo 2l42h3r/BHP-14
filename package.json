@@ -1,0 +1,19 @@
+{
+  "name": "bhp-14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "quiz.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2l42h3r/BHP-14.git"
+  },
+  "author": "Sl4sher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2l42h3r/BHP-14/issues"
+  },
+  "homepage": "https://github.com/2l42h3r/BHP-14#readme"
+}
