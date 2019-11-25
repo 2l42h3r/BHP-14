@@ -3,32 +3,103 @@
 <html>
 
 <head>
+	<meta charset="utf8">
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Zagrożenia czynnikami chemicznymi w środowisku pracy</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/0.9.0/progressbar.min.js"></script>
 </head>
 
 <body>
-	<script src="quiz.js"></script>
 	<div class="quiz">
-		<div id="circle-container"></div>
+		<div id="circle-container">
+		</div>
 		<form action="">
-			<fieldset class="q">
+			<fieldset class="q q1">
 				<div class="content">
-					<legend>Pytanie 1</legend>
-					<input type="radio" name="q1" id="a1" class="btnQ">
-					<label class="btnQ"><span>Odp 1</span></label>
-					<input type="radio" name="q1" id="a2" class="btnQ">
-					<label class="btnQ"><span>Odp 2</span></label>
-					<input type="radio" name="q1" id="a3" class="btnQ">
-					<label class="btnQ"><span>Odp 3</span></label>
-					<input type="radio" name="q1" id="a4" class="btnQ">
-					<label class="btnQ"><span>Odp 4</span></label>
+					<legend>1. Wich bacon?</legend>
+					<input type="radio" name="q1" id="turkey" class="btnQ">
+					<label for="turkey" class="btnQ"><span>Turkey bacon</span></label>
+					<input type="radio" name="q1" id="canadian">
+					<label for="canadian" class="btnQ"><span>Canadian bacon</span></label>
+					<input type="radio" name="q1" id="american">
+					<label for="american" class="btnQ"><span>American bacon</span></label>
+					<input type="radio" name="q1" id="beef">
+					<label for="beef" class="btnQ"><span>Beef bacon</span></label>
 				</div>
-				<div class="button-space"></div>
+				<div class="button-space">
+
+				</div>
+			</fieldset>
+			<fieldset class="q q2">
+				<div class="content">
+					<legend>2. How much?</legend>
+					<input type="radio" name="q2" id="1">
+					<label for="1" class="btnQ"><span>1</span></label>
+					<input type="radio" name="q2" id="2">
+					<label for="2" class="btnQ"><span>2</span></label>
+					<input type="radio" name="q2" id="3">
+					<label for="3" class="btnQ"><span>3</span></label>
+					<input type="radio" name="q2" id="99">
+					<label for="99" class="btnQ"><span>99</span></label>
+				</div>
+				<div class="button-space">
+
+				</div>
+			</fieldset>
+			<fieldset class="q q3">
+				<div class="content">
+					<legend>2. How much?</legend>
+					<input type="radio" name="q3" id="1">
+					<label for="1" class="btnQ"><span>1</span></label>
+					<input type="radio" name="q3" id="2">
+					<label for="2" class="btnQ"><span>2</span></label>
+					<input type="radio" name="q3" id="3">
+					<label for="3" class="btnQ"><span>3</span></label>
+					<input type="radio" name="q3" id="99">
+					<label for="99" class="btnQ"><span>99</span></label>
+				</div>
+				<div class="button-space">
+
+				</div>
+			</fieldset>
+			<fieldset class="q q4">
+				<div class="content">
+					<legend>2. How much?</legend>
+					<input type="radio" name="q4" id="1">
+					<label for="1" class="btnQ"><span>1</span></label>
+					<input type="radio" name="q4" id="2">
+					<label for="2" class="btnQ"><span>2</span></label>
+					<input type="radio" name="q4" id="3">
+					<label for="3" class="btnQ"><span>3</span></label>
+					<input type="radio" name="q4" id="99">
+					<label for="99" class="btnQ"><span>99</span></label>
+				</div>
+				<div class="button-space">
+
+				</div>
+			</fieldset>
+			<fieldset class="q q5">
+				<div class="content">
+					<legend>2. How much?</legend>
+					<input type="radio" name="q5" id="1">
+					<label for="1" class="btnQ"><span>1</span></label>
+					<input type="radio" name="q5" id="2">
+					<label for="2" class="btnQ"><span>2</span></label>
+					<input type="radio" name="q5" id="3">
+					<label for="3" class="btnQ"><span>3</span></label>
+					<input type="radio" name="q5" id="99">
+					<label for="99" class="btnQ"><span>99</span></label>
+				</div>
+				<div class="button-space">
+
+				</div>
 			</fieldset>
 		</form>
 	</div>
+	<script src="quiz.js"></script>
 </body>
 
 </html>

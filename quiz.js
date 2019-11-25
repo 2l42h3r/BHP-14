@@ -1,25 +1,26 @@
+"use strict";
 let currentQ = 1;
-const nextBtn = "<button type='button' class='next animated bounceInLeft'>Dalej</button>";
-var circle = new ProgressBar.Circle("#circle-container", {
+const nextBtn = '<button type="button" class="next animated bounceInLeft">Suivant</button>';
+var circle = new ProgressBar.Circle('#circle-container', {
 	duration: 200,
 	strokeWidth: 5,
 	trailWidth: 5,
 	trailColor: "#ddd",
 	from: {
-		color: "218CCC"
+		color: '#218CCC'
 	},
 	to: {
-		color: "047E3C"
+		color: '#047E3C'
 	},
 	step: function (state, circle) {
-		circle.path.setAttribute("stroke", state.color);
+		circle.path.setAttribute('stroke', state.color);
 	}
 });
 var arrQ = $(".q");
 for (var cpt = 0; cpt <= arrQ.length; cpt++) {
 	if (cpt >= 1) $(arrQ[cpt]).addClass("disabled");
 }
-$(".btnQ").on("click", function (e) {
+$(".btnQ").on('click', function () {
 	if (!$(".q" + currentQ + " .button-space .next").length) {
 		$(".q" + currentQ + " .button-space").append(nextBtn);
 		$(".next").on("click", changeQ);
@@ -37,7 +38,7 @@ function changeQ() {
 }
 function setNewQ() {
 	if (currentQ > arrQ.length) {
-		$(".quiz").append("<div class='end animated bounceInDown'>Thanks for sharing...</div>");
+		$(".quiz").append('<div class="end animated bounceInDown">Thanks for sharing...</div>');
 	}
 	else {
 		$(".q" + currentQ).removeClass("disabled");
