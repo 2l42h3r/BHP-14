@@ -1,7 +1,14 @@
 $white: #fff;
 $blue: #1b00a9;
-$grey: #595959;
+$bg: #595959;
 $dominant: #8c0000;
+
+@media print {
+  body {
+    max-width: none;
+  }
+}
+
 @mixin box-sizing($type) {
   -moz-box-sizing: $type;
   -webkit-box-sizing: $type;
@@ -19,31 +26,28 @@ $dominant: #8c0000;
   transition: $property $time $type;
 }
 @mixin box-shadow() {
-  -webkit-box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.3);
-  -moz-box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.3);
-  box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.3);
+  -webkit-box-shadow: 0px 0px 1.053em 0px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow: 0px 0px 1.053em 0px rgba(50, 50, 50, 0.3);
+  box-shadow: 0px 0px 1.053em 1.053em rgba(50, 50, 50, 0.3);
 }
 #circle-container {
-  width: 200px;
-  margin: 20px auto;
+  width: 10.526em;
+  margin: 1.053em auto;
 }
 .q {
   color: $white;
-  font-family: Segoe UI, Helvetica, Arial, sans-serif;
-  font-weight: bold;
   @include box-sizing(border-box);
-  // background-color: $dominant;
   margin: 0 auto;
-  width: 800px;
+  width: 42.105em;
   border: none;
-  padding: 40px;
+  padding: 2.105em;
   overflow: hidden;
   legend {
     @include box-sizing(border-box);
     text-align: center;
     width: 100%;
-    padding-bottom: 20px;
-    font-size: 20px;
+    padding-bottom: 1.053em;
+    font-size: 1.053em;
   }
   input[type="radio"] + label {
     @include box-sizing(border-box);
@@ -58,12 +62,12 @@ $dominant: #8c0000;
       margin: 0 auto;
       width: 80%;
       color: #214258;
-      padding: 20px;
+      padding: 1.053em;
       background-color: $white;
-      margin-bottom: 10px;
+      margin-bottom: 0.526em;
       &:hover {
         background-color: $blue;
-        color: #D6BB2E;
+        color: #d6bb2e;
       }
     }
   }
@@ -73,27 +77,24 @@ $dominant: #8c0000;
   }
   input[type="radio"] {
     position: absolute;
-    left: -9999px;
+    left: -526.263em;
   }
   .button-space {
     clear: both;
-    height: 27px;
-    padding-top: 20px;
+    height: 1.421em;
+    padding-top: 1.053em;
   }
   .next {
     display: block;
     margin-left: auto;
     margin-right: auto;
     background-color: $dominant;
-    @include border-radius(15px);
-    border: solid 2px $dominant;
+    @include border-radius(0.789em);
+    border: solid 0.105em $dominant;
     color: $white;
-    font-size: 16px;
-    padding: 2px 25px;
+    font-size: 0.842em;
+    padding: 0.105em 1.316em;
     text-transform: uppercase;
-    font-family: Segoe UI, Helvetica, arial, sans-serif;
-    font-weight: bold;
-
   }
 }
 .disabled {
@@ -101,11 +102,21 @@ $dominant: #8c0000;
 }
 .end {
   text-align: center;
-  font-family: Segoe UI, Helvetica, arial, sans-serif;
-  font-size: 50px;
-  color: #047e3c;
+  font-size: 2.632em;
 }
 
 body {
-  background-color: $grey;
+  background-color: $bg;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 1em auto;
+  max-width: 40em;
+  padding: 0 .62em;
+  font: 1.2em/1.62;
+  font-family: Segoe, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+}
+
+h1,h2,h3 {
+  line-height: 1.2;
 }

@@ -21,10 +21,11 @@ function Question(question, answer1, answer2, answer3, rightanswer) {
 }
 
 let currentQ = 1;
+let correct = 0;
 const nextBtn = "<button type='button' class='next animated bounceInLeft'>Dalej</button>";
 /*global ProgressBar*/
 /*eslint no-undef: "error"*/
-var circle = new ProgressBar.Circle("#circle-container", {
+let circle = new ProgressBar.Circle("#circle-container", {
 	duration: 200,
 	strokeWidth: 5,
 	trailWidth: 5,
@@ -40,15 +41,15 @@ var circle = new ProgressBar.Circle("#circle-container", {
 	}
 });
 
-let question1 = new Question("pyt1", "odp1", "odp2", "odp3", "pop-odp");
-let question2 = new Question("pyt2", "odp1", "odp2", "odp3", "pop-odp");
-let question3 = new Question("pyt3", "odp1", "odp2", "odp3", "pop-odp");
-let question4 = new Question("pyt4", "odp1", "odp2", "odp3", "pop-odp");
-let question5 = new Question("pyt5", "odp1", "odp2", "odp3", "pop-odp");
+const question1 = new Question("pyt1", "odp1", "odp2", "odp3", "pop-odp");
+const question2 = new Question("pyt2", "odp1", "odp2", "odp3", "pop-odp");
+const question3 = new Question("pyt3", "odp1", "odp2", "odp3", "pop-odp");
+const question4 = new Question("pyt4", "odp1", "odp2", "odp3", "pop-odp");
+const question5 = new Question("pyt5", "odp1", "odp2", "odp3", "pop-odp");
 
-let questions = [question1, question2, question3, question4, question5];
-let generate = makeRandomRange(5);
-let selected = [questions[generate()], questions[generate()], questions[generate()], questions[generate()], questions[generate()]];
+const questions = [question1, question2, question3, question4, question5];
+const generate = makeRandomRange(5);
+const selected = [questions[generate()], questions[generate()], questions[generate()], questions[generate()], questions[generate()]];
 
 function setQuestions(x) {
 	let gen = makeRandomRange(4);
@@ -61,8 +62,8 @@ function setQuestions(x) {
 
 setQuestions(currentQ);
 
-var arrQ = $(".q");
-for (var cpt = 0; cpt <= arrQ.length; cpt++) {
+let arrQ = $(".q");
+for (let cpt = 0; cpt <= arrQ.length; cpt++) {
 	if (cpt >= 1) $(arrQ[cpt]).addClass("disabled");
 }
 
@@ -74,12 +75,16 @@ $(".btnQ").on("click", function () {
 });
 
 function changeQ() {
+	let id;
 	circle.animate((currentQ) / arrQ.length);
 	$(".q" + currentQ).addClass("animated fadeOutDown");
 	let radios = document.getElementsByName("q" + currentQ);
 	for (let i = 0, length = radios.length; i < length; i++) {
 		if (radios[i].checked) {
-			// alert(radios[i].id);
+			id = radios[i].id.replace(/i/, "a");
+			if (document.getElementById(id).innerHTML == selected[currentQ - 1].rightanswer) {
+				correct++;
+			}
 			break;
 		}
 	}
@@ -87,15 +92,31 @@ function changeQ() {
 		$(".q" + currentQ).removeClass("animated fadeOutDown");
 		$(".q" + currentQ).addClass("disabled");
 		currentQ = currentQ + 1;
-		setQuestions(currentQ);
 		setNewQ();
 	}, 1000);
 }
+
 function setNewQ() {
 	if (currentQ > arrQ.length) {
-		$(".quiz").append("<div class='end animated bounceInDown'>Thanks for sharing...</div>");
+		const percentage = correct / 5;
+		circle.animate(percentage);
+		const result = parseFloat(percentage * 100).toFixed(0) + "%";
+		let message = "";
+		let color = "";
+		if (percentage < 0.5) {
+			message = "Musisz jeszcze trochę popracować";
+			color = "8c0000";
+		} else if (percentage < 0.8) {
+			message = "Całkiem nieźle!";
+			color = "D6BB2E";
+		} else {
+			message = "Świetny wynik!";
+			color = "047e3c";
+		}
+		$(".quiz").append("<div class='end animated bounceInDown' style='color: #" + color + ";'>" + result + "<br>" + message + "</div>");
 	}
 	else {
+		setQuestions(currentQ);
 		$(".q" + currentQ).removeClass("disabled");
 		$(".q" + currentQ).addClass("animated fadeInDown");
 	}
