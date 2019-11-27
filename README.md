@@ -1,2 +1,2 @@
 # Kompilacja stylu
-    sass style.scss style.css
+    sass style.scss:style.css
