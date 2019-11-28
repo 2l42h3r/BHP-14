@@ -1,18 +1,18 @@
 Pytania BHP:
 
-1. "Kto zapewnia ochronê pracowników przed zagro¿eniami czynnikami chemiczniymi?" "Pracownik" "Pracodawca" "Bóg" "WoŸny" ="Pracodawca"
-2. "Co oznacza ten piktogram (GHS01)?" "Wybuchaj¹ca bomba" "Granat" "Wykluwaj¹cy siê kurczak" "Eksploduj¹cy ziemniak" ="Wybuchaj¹ca bomba"
-3. "Co oznacza ten piktogram (GHS04)?" "Stoisko z kukurydz¹" "Pó³ wa³ka do ciasta" "Butla gazowa" "Butelka po winie" ="Butla gazowa"
-4. "Co oznacza ten piktogram (GHS06)?" "Piraci!" "Pole minowe" "Czaszka i skrzy¿owane piszczele" "Ghost Rider" ="Czaszka i skrzy¿owane piszczele"
-5. "Co to jest mieszanina" "Roztwór sk³adaj¹cy siê z dwóch lub wiêcej substancji" "Eksperymenty alkoholowe" "Ró¿norodnoœæ kulturowa" "Córka Mieszka i Janiny" ="Roztwór sk³adaj¹cy siê z dwóch lub wiêcej substancji"
-6. "W ocenie ryzyka spowodowanego czynnikami chemicznymi nie nale¿y braæ pod uwagê: " "W³asnoœci czynników chemicznych" "Poziomu, rodzaju i czasu trwania zagro¿enia" "Wyników oceny stanu zdrowia pracowników" "Upodobañ i zachcianek pracowników" ="Upodobañ i zachcianek pracowników"
-7. "Ile substancji chemicznych znajduje siê na wykazie niebezpiecznych substancji?" "Cztery" "Kilka tysiêcy" "Setki" "Pierwiastek trzeciego stopnia z 635" ="Kilka tysiêcy"
-8. "Gdzie jest najwiêksza szansa na wyst¹pienie zagro¿enia spowodowanego czynnikami chemicznymi?" "Mêska toaleta na czwartym piêtrze" "Warzywniak" "Kantorek wuefistów" "Magazyn farmaceutyczny" ="Magazyn farmaceutyczny"
-9. "Co nie nale¿y do obowi¹zków pracodawcy?" "Przeprowadzanie okresowych szkoleñ" "Zapewnianie owoców w pracy" "Informowanie pracowników o nara¿eniu na dzia³anie substancji szkodliwych dla zdrowia" "Stosowanie siê do przepisów reguluj¹cych zasady BHP" ="Zapewnianie owoców w pracy"
-10. "Czynniki chemiczne najczêœciej wystêpuj¹ w postaci: " "Cia³ sta³ych" "Cieczy" "Gazów" "Grzybów" ="Gazów"
-11. "Co jest jednym z obowi¹zków pracodawcy w razie zagro¿enia?" "Ucieczka" "Panika" "Pochwalenie siê na social media" "Poinformowanie pracowników o zagro¿eniu i podjêcie odpowiednich kroków" ="Poinformowanie pracowników o zagro¿eniu i podjêcie odpowiednich kroków"
-12. "Gdzie szukaæ przepisów dotycz¹cych ochrony pracowników przed zagro¿eniami zwi¹zanymi z czynnikami chemicznymi?" "'Eksperckie' fora" "Literatura piêkna" "Wikipedia" "Centralny instytut ochrony pracy" ="Centralny instytut ochrony pracy"
+1. "Kto zapewnia ochronï¿½ pracownikï¿½w przed zagroï¿½eniami czynnikami chemiczniymi?" "Pracownik" "Pracodawca" "Bï¿½g" "Woï¿½ny" ="Pracodawca"
+2. "Co oznacza ten piktogram (GHS01)?" "Wybuchajï¿½ca bomba" "Granat" "Wykluwajï¿½cy siï¿½ kurczak" "Eksplodujï¿½cy ziemniak" ="Wybuchajï¿½ca bomba"
+3. "Co oznacza ten piktogram (GHS04)?" "Stoisko z kukurydzï¿½" "Pï¿½ waï¿½ka do ciasta" "Butla gazowa" "Butelka po winie" ="Butla gazowa"
+4. "Co oznacza ten piktogram (GHS06)?" "Piraci!" "Pole minowe" "Czaszka i skrzyï¿½owane piszczele" "Ghost Rider" ="Czaszka i skrzyï¿½owane piszczele"
+5. "Co to jest mieszanina" "Roztwï¿½r skï¿½adajï¿½cy siï¿½ z dwï¿½ch lub wiï¿½cej substancji" "Eksperymenty alkoholowe" "Rï¿½norodnoï¿½ï¿½ kulturowa" "Cï¿½rka Mieszka i Janiny" ="Roztwï¿½r skï¿½adajï¿½cy siï¿½ z dwï¿½ch lub wiï¿½cej substancji"
+6. "W ocenie ryzyka spowodowanego czynnikami chemicznymi nie naleï¿½y braï¿½ pod uwagï¿½: " "Wï¿½asnoï¿½ci czynnikï¿½w chemicznych" "Poziomu, rodzaju i czasu trwania zagroï¿½enia" "Wynikï¿½w oceny stanu zdrowia pracownikï¿½w" "Upodobaï¿½ i zachcianek pracownikï¿½w" ="Upodobaï¿½ i zachcianek pracownikï¿½w"
+7. "Ile substancji chemicznych znajduje siï¿½ na wykazie niebezpiecznych substancji?" "Cztery" "Kilka tysiï¿½cy" "Setki" "Pierwiastek trzeciego stopnia z 635" ="Kilka tysiï¿½cy"
+8. "Gdzie jest najwiï¿½ksza szansa na wystï¿½pienie zagroï¿½enia spowodowanego czynnikami chemicznymi?" "Mï¿½ska toaleta na czwartym piï¿½trze" "Warzywniak" "Kantorek wuefistï¿½w" "Magazyn farmaceutyczny" ="Magazyn farmaceutyczny"
+9. "Co nie naleï¿½y do obowiï¿½zkï¿½w pracodawcy?" "Przeprowadzanie okresowych szkoleï¿½" "Zapewnianie owocï¿½w w pracy" "Informowanie pracownikï¿½w o naraï¿½eniu na dziaï¿½anie substancji szkodliwych dla zdrowia" "Stosowanie siï¿½ do przepisï¿½w regulujï¿½cych zasady BHP" ="Zapewnianie owocï¿½w w pracy"
+10. "Czynniki chemiczne najczï¿½ciej wystï¿½pujï¿½ w postaci: " "Ciaï¿½ staï¿½ych" "Cieczy" "Gazï¿½w" "Grzybï¿½w" ="Gazï¿½w"
+11. "Co jest jednym z obowiï¿½zkï¿½w pracodawcy w razie zagroï¿½enia?" "Ucieczka" "Panika" "Pochwalenie siï¿½ na social media" "Poinformowanie pracownikï¿½w o zagroï¿½eniu i podjï¿½cie odpowiednich krokï¿½w" ="Poinformowanie pracownikï¿½w o zagroï¿½eniu i podjï¿½cie odpowiednich krokï¿½w"
+12. "Gdzie szukaï¿½ przepisï¿½w dotyczï¿½cych ochrony pracownikï¿½w przed zagroï¿½eniami zwiï¿½zanymi z czynnikami chemicznymi?" "'Eksperckie' fora" "Literatura piï¿½kna" "Wikipedia" "Centralny instytut ochrony pracy" ="Centralny instytut ochrony pracy"
 
 
 
- 					Bêdzie wiêcej jbc
+ 					Bï¿½dzie wiï¿½cej jbc
