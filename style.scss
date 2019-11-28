@@ -51,6 +51,9 @@ $green: #b8ca56;
     width: 100%;
     padding-bottom: 1.053em;
     font-size: 1.053em;
+    img {
+      width: 15em;
+    }
   }
   input[type="radio"] + label {
     @include box-sizing(border-box);

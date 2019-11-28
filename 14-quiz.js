@@ -52,9 +52,12 @@ const question6 = new Question("Co nie należy do obowiązków pracodawcy?", "Pr
 const question7 = new Question("Czynniki chemiczne najczęściej występują w postaci:", "Ciał stałych", "Cieczy", "Grzybów", "Gazów");
 const question8 = new Question("Co jest jednym z obowiązków pracodawcy w razie zagrożenia?", "Ucieczka", "Panika", "Pochwalenie się na social media", "Poinformowanie pracowników o zagrożeniu i podjęcie odpowiednich kroków");
 const question9 = new Question("Gdzie szukać przepisów dotyczących ochrony pracowników przed zagrożeniami związanymi z czynnikami chemicznymi?", "'Eksperckie' fora", "Literatura piękna", "Wikipedia", "Centralny instytut ochrony pracy");
+const question10 = new Question("<img src='https://www.reach-compliance.ch/downloads/GHS01_explos.png' alt='GHS01'><br>Co oznacza ten piktogram?", "Granat", "Wykluwający się kurczak", "Eksplodujący ziemniak", "Materiały wybuchowe");
+const question11 = new Question("<img src='https://www.reach-compliance.ch/downloads/GHS04_bottle.png' alt='GHS04'><br>Co oznacza ten piktogram?", "Stoisko z kukurydzą", "Pół wałka do ciasta", "Butelka po winie", "Gazy pod ciśnieniem");
+const question12 = new Question("<img src='https://www.reach-compliance.ch/downloads/GHS06_skull.png' alt='GHS06'><br>Co oznacza ten piktogram?", "Piraci!", "Pole minowe", "Ghost Rider", "Ostra toksyczność");
 
-const questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9];
-const generate = makeRandomRange(9);
+const questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10, question11, question12];
+const generate = makeRandomRange(12);
 const selected = [questions[generate()], questions[generate()], questions[generate()], questions[generate()], questions[generate()]];
 
 function setQuestions(x) {
