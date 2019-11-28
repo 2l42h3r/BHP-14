@@ -4,6 +4,7 @@ $bg: #595959;
 $dominant: #8c0000;
 $special1: #d6bb2e;
 $special2: #214258;
+$green: #b8ca56;
 
 @media print {
   body {
@@ -74,7 +75,7 @@ $special2: #214258;
     }
   }
   input[type="radio"]:checked + label span {
-    background-color: #B8CA56;
+    background-color: $green;
     color: $special2;
   }
   input[type="radio"] {
