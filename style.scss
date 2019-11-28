@@ -68,14 +68,14 @@ $special2: #214258;
       background-color: $white;
       margin-bottom: 0.526em;
       &:hover {
-        background-color: $blue;
-        color: $special1;
+        background-color: $dominant;
+        color: $white;
       }
     }
   }
   input[type="radio"]:checked + label span {
-    background-color: $dominant;
-    color: $white;
+    background-color: #B8CA56;
+    color: $special2;
   }
   input[type="radio"] {
     position: absolute;

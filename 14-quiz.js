@@ -12,12 +12,14 @@ function makeRandomRange(x) {
 	};
 }
 
-function Question(question, answer1, answer2, answer3, rightanswer) {
-	this.question = question;
-	this.answer1 = answer1;
-	this.answer2 = answer2;
-	this.answer3 = answer3;
-	this.rightanswer = rightanswer;
+class Question {
+	constructor(question, answer1, answer2, answer3, rightanswer) {
+		this.question = question;
+		this.answer1 = answer1;
+		this.answer2 = answer2;
+		this.answer3 = answer3;
+		this.rightanswer = rightanswer;
+	}
 }
 
 let currentQ = 1;
@@ -111,7 +113,7 @@ function setNewQ() {
 			color = "D6BB2E";
 		} else {
 			message = "Świetny wynik!";
-			color = "047e3c";
+			color = "B8CA56";
 		}
 		$(".quiz").append("<div class='end animated bounceInDown' style='color: #" + color + ";'>" + result + "<br>" + message + "</div>");
 	}
