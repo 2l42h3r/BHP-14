@@ -43,14 +43,18 @@ let circle = new ProgressBar.Circle("#circle-container", {
 	}
 });
 
-const question1 = new Question("pyt1", "odp1", "odp2", "odp3", "pop-odp");
-const question2 = new Question("pyt2", "odp1", "odp2", "odp3", "pop-odp");
-const question3 = new Question("pyt3", "odp1", "odp2", "odp3", "pop-odp");
-const question4 = new Question("pyt4", "odp1", "odp2", "odp3", "pop-odp");
-const question5 = new Question("pyt5", "odp1", "odp2", "odp3", "pop-odp");
+const question1 = new Question("Kto zapewnia ochronę pracowników przed zagrożeniami czynnikami chemiczniymi?", "Pracownik", "Bóg", "Woźny", "Pracodawca");
+const question2 = new Question("Co to jest mieszanina?", "Eksperymenty alkoholowe", "Różnorodność kulturowa", "Córka Mieszka i Janiny", "Roztwór składający się z dwóch lub więcej substancji");
+const question3 = new Question("W ocenie ryzyka spowodowanego czynnikami chemicznymi nie należy brać pod uwagę:", "Własności czynników chemicznych", "Poziomu, rodzaju i czasu trwania zagrożenia", "Wyników oceny stanu zdrowia pracowników", "Upodobań i zachcianek pracowników");
+const question4 = new Question("Ile substancji chemicznych znajduje się na wykazie niebezpiecznych substancji?", "Cztery", "Setki", "Pierwiastek trzeciego stopnia z 635", "Kilka tysięcy");
+const question5 = new Question("Gdzie jest największa szansa na wystąpienie zagrożenia spowodowanego czynnikami chemicznymi?", "Męska toaleta na czwartym piętrze", "Warzywniak", "Kantorek wuefistów", "Magazyn farmaceutyczny");
+const question6 = new Question("Co nie należy do obowiązków pracodawcy?", "Przeprowadzanie okresowych szkoleń", "Informowanie pracowników o narażeniu na działanie substancji szkodliwych dla zdrowia", "Stosowanie się do przepisów regulujących zasady BHP", "Zapewnianie owoców w pracy");
+const question7 = new Question("Czynniki chemiczne najczęściej występują w postaci:", "Ciał stałych", "Cieczy", "Grzybów", "Gazów");
+const question8 = new Question("Co jest jednym z obowiązków pracodawcy w razie zagrożenia?", "Ucieczka", "Panika", "Pochwalenie się na social media", "Poinformowanie pracowników o zagrożeniu i podjęcie odpowiednich kroków");
+const question9 = new Question("Gdzie szukać przepisów dotyczących ochrony pracowników przed zagrożeniami związanymi z czynnikami chemicznymi?", "'Eksperckie' fora", "Literatura piękna", "Wikipedia", "Centralny instytut ochrony pracy");
 
-const questions = [question1, question2, question3, question4, question5];
-const generate = makeRandomRange(5);
+const questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9];
+const generate = makeRandomRange(9);
 const selected = [questions[generate()], questions[generate()], questions[generate()], questions[generate()], questions[generate()]];
 
 function setQuestions(x) {
