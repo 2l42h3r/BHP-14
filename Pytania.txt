@@ -1,0 +1,18 @@
+Pytania BHP:
+
+1. "Kto zapewnia ochronê pracowników przed zagro¿eniami czynnikami chemiczniymi?" "Pracownik" "Pracodawca" "Bóg" "WoŸny" ="Pracodawca"
+2. "Co oznacza ten piktogram (GHS01)?" "Wybuchaj¹ca bomba" "Granat" "Wykluwaj¹cy siê kurczak" "Eksploduj¹cy ziemniak" ="Wybuchaj¹ca bomba"
+3. "Co oznacza ten piktogram (GHS04)?" "Stoisko z kukurydz¹" "Pó³ wa³ka do ciasta" "Butla gazowa" "Butelka po winie" ="Butla gazowa"
+4. "Co oznacza ten piktogram (GHS06)?" "Piraci!" "Pole minowe" "Czaszka i skrzy¿owane piszczele" "Ghost Rider" ="Czaszka i skrzy¿owane piszczele"
+5. "Co to jest mieszanina" "Roztwór sk³adaj¹cy siê z dwóch lub wiêcej substancji" "Eksperymenty alkoholowe" "Ró¿norodnoœæ kulturowa" "Córka Mieszka i Janiny" ="Roztwór sk³adaj¹cy siê z dwóch lub wiêcej substancji"
+6. "W ocenie ryzyka spowodowanego czynnikami chemicznymi nie nale¿y braæ pod uwagê: " "W³asnoœci czynników chemicznych" "Poziomu, rodzaju i czasu trwania zagro¿enia" "Wyników oceny stanu zdrowia pracowników" "Upodobañ i zachcianek pracowników" ="Upodobañ i zachcianek pracowników"
+7. "Ile substancji chemicznych znajduje siê na wykazie niebezpiecznych substancji?" "Cztery" "Kilka tysiêcy" "Setki" "Pierwiastek trzeciego stopnia z 635" ="Kilka tysiêcy"
+8. "Gdzie jest najwiêksza szansa na wyst¹pienie zagro¿enia spowodowanego czynnikami chemicznymi?" "Mêska toaleta na czwartym piêtrze" "Warzywniak" "Kantorek wuefistów" "Magazyn farmaceutyczny" ="Magazyn farmaceutyczny"
+9. "Co nie nale¿y do obowi¹zków pracodawcy?" "Przeprowadzanie okresowych szkoleñ" "Zapewnianie owoców w pracy" "Informowanie pracowników o nara¿eniu na dzia³anie substancji szkodliwych dla zdrowia" "Stosowanie siê do przepisów reguluj¹cych zasady BHP" ="Zapewnianie owoców w pracy"
+10. "Czynniki chemiczne najczêœciej wystêpuj¹ w postaci: " "Cia³ sta³ych" "Cieczy" "Gazów" "Grzybów" ="Gazów"
+11. "Co jest jednym z obowi¹zków pracodawcy w razie zagro¿enia?" "Ucieczka" "Panika" "Pochwalenie siê na social media" "Poinformowanie pracowników o zagro¿eniu i podjêcie odpowiednich kroków" ="Poinformowanie pracowników o zagro¿eniu i podjêcie odpowiednich kroków"
+12. "Gdzie szukaæ przepisów dotycz¹cych ochrony pracowników przed zagro¿eniami zwi¹zanymi z czynnikami chemicznymi?" "'Eksperckie' fora" "Literatura piêkna" "Wikipedia" "Centralny instytut ochrony pracy" ="Centralny instytut ochrony pracy"
+
+
+
+ 					Bêdzie wiêcej jbc
