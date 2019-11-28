@@ -66,7 +66,16 @@ function setQuestions(x) {
 	document.getElementById("a" + x + gen()).innerHTML = selected[x - 1].rightanswer;
 }
 
+function fixHeights(x) {
+	let heights = [$("#a" + x + "0").height(), $("#a" + x + "1").height(), $("#a" + x + "2").height(), $("#a" + x + "3").height()];
+	let max = Math.max.apply(null, heights);
+	for (let i = 0; i < 4; i++) {
+		$("#a" + x + i).height(max);
+	}
+}
+
 setQuestions(currentQ);
+fixHeights(currentQ);
 
 let arrQ = $(".q");
 for (let cpt = 0; cpt <= arrQ.length; cpt++) {
@@ -124,6 +133,7 @@ function setNewQ() {
 	else {
 		setQuestions(currentQ);
 		$(".q" + currentQ).removeClass("disabled");
+		fixHeights(currentQ);
 		$(".q" + currentQ).addClass("animated fadeInDown");
 	}
 }
