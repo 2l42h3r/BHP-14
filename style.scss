@@ -120,38 +120,3 @@ body {
   font-weight: bold;
   color: $white;
 }
-
-h1,
-h2,
-h3 {
-  line-height: 1.2;
-}
-
-#container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.main-button {
-  @include box-shadow();
-  @include box-sizing(border-box);
-  @include border-radius(0.526em);
-  width: 15em;
-  background: $white;
-  border: 0.5em solid $white;
-  margin: 2em auto;
-  color: $special2;
-  font-size: 1.5em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-#doc {
-  margin-right: 1em;
-}
-
-#quiz {
-  margin-left: 1em;
-}
