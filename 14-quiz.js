@@ -55,9 +55,14 @@ const question9 = new Question("Gdzie szukać przepisów dotyczących ochrony pr
 const question10 = new Question("<img src='https://www.reach-compliance.ch/downloads/GHS01_explos.png' alt='GHS01'><br>Co oznacza ten piktogram?", "Granat", "Wykluwający się kurczak", "Eksplodujący ziemniak", "Materiały wybuchowe");
 const question11 = new Question("<img src='https://www.reach-compliance.ch/downloads/GHS04_bottle.png' alt='GHS04'><br>Co oznacza ten piktogram?", "Stoisko z kukurydzą", "Pół wałka do ciasta", "Butelka po winie", "Gazy pod ciśnieniem");
 const question12 = new Question("<img src='https://www.reach-compliance.ch/downloads/GHS06_skull.png' alt='GHS06'><br>Co oznacza ten piktogram?", "Piraci!", "Pole minowe", "Ghost Rider", "Ostra toksyczność");
+const question13 = new Question("Co powinno się założyć w przypadku zagrożenia środkami toksycznymi?", "Maska gazowa", "Czepek", "Okulary przeciwsłoneczne", "Maska przeciwgazowa");
+const question14 = new Question("Co nie wchodzi w skład zestawu kostiumu ochronnego?", "Płaszcz z kapturem", "Rękawice ochronne", "Torba na cały zestaw", "Bawełniany szalik");
+const question15 = new Question("Przed czym kostium ochronny OP-1 ma głównie chronić?", "Słońce", "Deszcz", "Hałas", "Skażenia chemiczne i biologiczne");
+const question16 = new Question("Która część/części ciała jest/są najbardziej zagrożona w przypadku skażenia substacjami chemicznymi?", "Kończyny", "Czaszka", "Uszy", "Układ oddechowy");
+const question17 = new Question("Do niebezpiecznych substancji chemicznych należą:", "Woda, tlen", "Mleko, ogórki", "Surowe ziemniaki", "Kwas siarkowy, mrówkowy, octowy");
 
-const questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10, question11, question12];
-const generate = makeRandomRange(12);
+const questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10, question11, question12, question13, question14, question15, question16, question17];
+const generate = makeRandomRange(17);
 const selected = [questions[generate()], questions[generate()], questions[generate()], questions[generate()], questions[generate()]];
 
 function setQuestions(x) {
